@@ -1,0 +1,16 @@
+Logistic Regression
+===================
+              precision    recall  f1-score   support
+
+          KN       0.96      0.93      0.94       193
+          HI       0.89      0.89      0.89       326
+          EN       0.87      0.91      0.89       239
+
+    accuracy                           0.90       758
+   macro avg       0.91      0.91      0.91       758
+weighted avg       0.90      0.90      0.90       758
+
+Confusion matrix (rows=true, cols=pred, order=['KN', 'HI', 'EN'])
+[[179  13   1]
+ [  6 289  31]
+ [  1  21 217]]

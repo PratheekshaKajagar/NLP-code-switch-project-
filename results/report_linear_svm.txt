@@ -1,0 +1,16 @@
+Linear SVM
+==========
+              precision    recall  f1-score   support
+
+          KN       0.96      0.94      0.95       193
+          HI       0.90      0.89      0.90       326
+          EN       0.88      0.92      0.90       239
+
+    accuracy                           0.91       758
+   macro avg       0.92      0.92      0.92       758
+weighted avg       0.91      0.91      0.91       758
+
+Confusion matrix (rows=true, cols=pred, order=['KN', 'HI', 'EN'])
+[[181  12   0]
+ [  6 291  29]
+ [  1  19 219]]

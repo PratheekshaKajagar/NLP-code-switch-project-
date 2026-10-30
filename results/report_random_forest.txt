@@ -1,0 +1,16 @@
+Random Forest
+=============
+              precision    recall  f1-score   support
+
+          KN       0.97      0.88      0.92       193
+          HI       0.85      0.91      0.88       326
+          EN       0.89      0.87      0.88       239
+
+    accuracy                           0.89       758
+   macro avg       0.90      0.89      0.89       758
+weighted avg       0.89      0.89      0.89       758
+
+Confusion matrix (rows=true, cols=pred, order=['KN', 'HI', 'EN'])
+[[169  23   1]
+ [  4 298  24]
+ [  1  31 207]]

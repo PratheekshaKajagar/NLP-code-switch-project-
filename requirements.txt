@@ -1,0 +1,28 @@
+# Core (required, offline, no downloads)
+scikit-learn>=1.0
+indic-transliteration>=2.3
+
+# Needed only for the interactive Jupyter notebook
+# (codeswitch_kn_hi_interactive.ipynb)
+ipywidgets>=8.0
+matplotlib>=3.5
+pandas>=1.5
+jupyter
+
+# Optional: enables the real NMT translation backend (Kannada -> Hindi)
+# instead of the dictionary fallback (recommended for actual quality)
+# transformers>=4.30
+# torch>=2.0
+# sentencepiece
+# sacremoses
+
+# Optional: for BLEU/chrF evaluation against a labeled test set
+# sacrebleu
+
+# --- Model building & training (train_models.py, data_builder.py) ---
+joblib
+wordfreq            # source of extra English/Hindi words for the dataset
+
+# --- BERT (bert_model.py) ---
+# torch>=2.0
+# transformers>=4.30

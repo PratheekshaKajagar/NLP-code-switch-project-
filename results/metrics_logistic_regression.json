@@ -1,0 +1,13 @@
+{
+  "model": "Logistic Regression",
+  "accuracy": 0.9036939313984169,
+  "precision_macro": 0.9095294590927377,
+  "recall_macro": 0.9073046660586715,
+  "f1_macro": 0.9081787386060194,
+  "roc_auc_macro_ovr": 0.979433200085099,
+  "roc_auc_per_class": {
+    "KN": 0.988793617313953,
+    "HI": 0.9668470234037718,
+    "EN": 0.9826589595375723
+  }
+}
